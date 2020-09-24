@@ -1,0 +1,1 @@
+RewriteEngine OnRewriteBase /RewriteCond %{HTTP:X-HTTPS} !1RewriteCond %{HTTP_HOST} ^xn----8sbmntmdok4b3d\.xn--p1ai$RewriteRule ^(.*)$ https://www.xn----8sbmntmdok4b3d.xn--p1ai/index/$1 [R=301,L]
