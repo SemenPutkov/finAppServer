@@ -1,4 +1,5 @@
 {
-    "port": 443,
+    "HttpPort": 80,
+    "HttpsPort": 443,
     "dbURI": "mongodb+srv://user-admin-db:user-admin-db@cluster0.y5lla.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority"
 }

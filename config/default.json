@@ -1,4 +1,7 @@
 {
-    "port": 8080,
-    "dbURI": "mongodb+srv://user-admin-db:user-admin-db@cluster0.y5lla.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority"
+    "HttpPort": 8080,
+    "HttpsPort": 443,
+    "dbURI": "mongodb+srv://user-admin-db:user-admin-db@cluster0.y5lla.gcp.mongodb.net/<dbname>?retryWrites=true&w=majority",
+    "GOOGLE_CLIENT_ID": "241106369098-g8juqk19khh81cgbcr9e6m82bfrgt304.apps.googleusercontent.com",
+    "GOOGLE_CLIENT_SECRET": "RjGBLuCIZKV17jrSjQhwy4QL"
 }
