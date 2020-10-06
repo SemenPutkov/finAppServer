@@ -1,7 +1,7 @@
 const { Router } = require('express')
 const router = Router()
 
-const { CostRowModel } = require('../db/databaseModels')
+const { CostRowModel } = require('../models/CostItemModel')
 
 router.get('/get-user-data/:id', async (req, res) => {
     console.log('Ищу по id', req.params.id)
