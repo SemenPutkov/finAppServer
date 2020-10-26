@@ -82,4 +82,16 @@ router.post('/with-google/:oToken', async (req, res) => {
     res.status(403).json({ "message": "forbidden" })
 })
 
+// @desc handle google response data, verify user in DB
+// initiator Auth.js, authGoogle()
+
+router.get('/with-google/:id', async (req, res) => {
+    const id = req.params.id
+
+    const user = await UserModel.findById(id)
+    if (user) return res.status(200).json(user)
+
+    return res.status(403).json({ "message": "logout" })
+})
+
 module.exports = router

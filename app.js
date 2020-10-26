@@ -40,6 +40,7 @@ if (process.env.NODE_ENV === 'production') {
     })
     app.use('/', express.static(path.join(__dirname, 'client', 'build')))
     app.get('*', (req, res) => {
+        res.set('Content-Security-Policy', "default-src *; script-src 'self' https://apis.google.com; img-src 'self' data: ")
         res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'))
     })
 }

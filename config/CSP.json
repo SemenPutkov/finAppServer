@@ -1,3 +1,3 @@
 {
-    "Content-Security-Policy": "default-src *; script-src 'sha256-736WYaUyNUuNlGQ/gKM1yQM50jp0Om9pUHNttnLjB5w='; script-src-elem 'sha256-736WYaUyNUuNlGQ/gKM1yQM50jp0Om9pUHNttnLjB5w=' https://www.xn----8sbmntmdok4b3d.xn--p1ai; style-src https://www.xn----8sbmntmdok4b3d.xn--p1ai; img-src https://www.xn----8sbmntmdok4b3d.xn--p1ai data:; style-src-elem https://www.xn----8sbmntmdok4b3d.xn--p1ai"
+    "Content-Security-Policy": "default-src 'self'; script-src https://apis.google.com/js/api.js"
 }
